@@ -14,8 +14,8 @@ driver.get("https://rahulshettyacademy.com/angularpractice/")
 print(driver.title)
 print(driver.current_url)
 
-driver.find_element_by_name("name").send_keys("Rahul")
-driver.find_element_by_css_selector("input[name ='email']").send_keys("rahulshettyacademy.com")
+driver.find_element_by_name("name").send_keys("Ola")
+driver.find_element_by_css_selector("input[name ='email']").send_keys("olatundeoladeni@yahoo.com")
 driver.find_element_by_id("exampleCheck1").click()
 
 dropdown = Select(driver.find_element_by_id("exampleFormControlSelect1"))
